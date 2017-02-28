@@ -1,12 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+
+import SearchBar from './components/search_bar';
 
 const API_KEY = 'AIzaSyAnjj4QDfxeYPmX4bVlYMeE8StNATEz2xQ'
 
 // Create a new component. This component should produce some HTML
 
 const App = () => {
-  return <div>Hi!</div>
+  return (<div>
+    <SearchBar />
+  </div>
+  );
 }
 // const is ES6 syntax; declaring a variable but cannot change the variable; a constant variable
 
